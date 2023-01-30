@@ -1,0 +1,74 @@
+.fondo{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-position: center center;
+
+}
+.tarjet{
+    display: flex;
+    flex-direction: column;
+    background-color: azure;
+    width: 400px;
+    height: 300px;
+    padding: 2rem;
+    border-radius: 2rem;
+    opacity: 0.8;
+    gap: 2rem;
+    transition: transform 200ms ease;
+}
+.tarjet:hover{
+transform:scale(1.07);
+}
+.datos{
+    display: flex;
+    position: relative;
+    gap: 4rem;
+}
+
+.time{
+    position: absolute;
+    right: 15px;
+    bottom: -100px;
+}
+.temper{
+    display: flex;
+    flex-direction: column;
+}
+.img{
+    position: absolute;
+    width: 150px;
+    opacity: 1;
+    top: -70px;
+    right: 0;
+    transition: transform 200ms ease;
+}
+.img:hover{
+    transform:scale(1.3);
+}
+
+.hume{
+    position: absolute;
+    right: 0;
+    top: 70px;
+}
+
+button{
+    width: 100px;
+    background-color: transparent;
+    border-color: transparent;
+    font-size: 3rem;
+    transition: transform 200ms ease;
+}
+button:hover{
+    transform:scale(1.09);
+}
+
+
+.cam{
+    position: relative;
+    bottom: 30px;
+    left: 10px;
+}
+
